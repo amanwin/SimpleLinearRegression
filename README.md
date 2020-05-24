@@ -22,7 +22,7 @@ Suppose you have a dataset for which the scatter plot looks like the following:
 ![title](step2/scatter-plot1.jpg)
 
 Now, if you run a linear regression on this dataset in Python, Python will fit a line on the data which, say, looks like the following:
-![title](step2/scatter-plot1.jpg)
+![title](step2/scatter-plot2.jpg)
 
 Now, you can clearly see that the data is randomly scattered and doesn't seem to follow a linear trend or any trend, in general. But Python will anyway fit a line through the data using the least squared method. But you can see that the fitted line is of no use in this case. 
 
