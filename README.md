@@ -56,3 +56,8 @@ Let's do a quick recap of how do you calculate p-value anyway:
 
 Now, if the p-value turns out to be less than 0.05, you can reject the null hypothesis and state that β1 is indeed significant.
 
+## Step 3 : Building a Linear Model
+
+Since 'TV' is very strongly correlated to 'Sales', let's first build a simple linear regression model with ‘TV’ as the predictor variable.
+
+[Building a Linear Model](step3/SimpleLinearRegression.ipynb)
