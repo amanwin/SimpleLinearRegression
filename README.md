@@ -60,4 +60,6 @@ Now, if the p-value turns out to be less than 0.05, you can reject the null hypo
 
 Since 'TV' is very strongly correlated to 'Sales', let's first build a simple linear regression model with ‘TV’ as the predictor variable.
 
+We have used statsmodels library for building the model:
+
 [Building a Linear Model](step3/SimpleLinearRegression.ipynb)
