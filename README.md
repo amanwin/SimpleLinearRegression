@@ -1,4 +1,4 @@
-# Building a Simple Linear Regression model
+# Building a Simple Linear Regression model using statsmodels library
 
 Dataset can be downloaded from below:
 
@@ -63,3 +63,10 @@ Since 'TV' is very strongly correlated to 'Sales', let's first build a simple li
 We have used statsmodels library for building the model:
 
 [Building a Linear Model](step3/SimpleLinearRegression.ipynb)
+
+
+# Linear Regression using SKLearn
+
+So far, you have worked with the 'statsmodels' package. This is a great package if you want to fit a line and draw inferences as well. But many times, you may not be interested in the statistics part of linear regression. You might just want to fit a line through the data and make predictions. In such cases, you can use **'SKLearn'**, which involves lesser hassle than **'statsmodels'**. Also, the industry standard as to what package should be used varies widely. Some companies prefer statsmodels whereas some others prefer **SKLearn**, so it is better for you if you know about both of these packages.
+
+[Linear Regression using SKLearn](sklearn/sklearn.ipynb)
